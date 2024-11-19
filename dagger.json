@@ -1,0 +1,16 @@
+{
+  "name": "node-api-demo",
+  "engineVersion": "v0.14.0",
+  "sdk": "typescript",
+  "exclude": [
+    "**/node_modules"
+  ],
+  "dependencies": [
+    {
+      "name": "echo-mod",
+      "source": "github.com/mjb141/daggerverse/echo@29d26f035ac0e86bee4d6b55e078015038d9cc73",
+      "pin": "29d26f035ac0e86bee4d6b55e078015038d9cc73"
+    }
+  ],
+  "source": "dagger"
+}
