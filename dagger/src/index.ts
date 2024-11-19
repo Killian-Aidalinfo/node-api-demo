@@ -25,6 +25,7 @@ class NodeApiDemo {
         .withWorkdir("/src")
         // run npm install to install dependencies
         .withExec(["npm", "install"])
+        .withEntrypoint(["npm", "run", "start"])
         .withExposedPort(8080)
     )
   }
